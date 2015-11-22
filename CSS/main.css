@@ -143,3 +143,54 @@ ul.right li a {
 	letter-spacing: 0.1px;
 	font-size: 18px;
 }
+
+/* Media Queries */
+
+/* When the screen is smaller than 900px add these rules */
+@media (max-width: 900px) {
+	.searchBox input {
+		width: 70%;
+	}
+
+/* When screen is smaller than 578px */
+@media (max-width: 578px) {
+	ul.right {
+		display: none;
+	}
+
+	ul.left {
+		text-align: center;
+	}
+}
+
+/* When screen is smaller than 474px */
+@media (max-width: 474px) {
+	img.profile_img {
+		display: none;
+	}
+
+	span.share {
+		display: none;
+	}
+}
+
+/*Iphones */
+@media (max-width: 333px) {
+	.fa {
+		display:none;
+	}
+
+	ul.nav {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	ul.nav a {
+		padding-left: 15px;
+	}
+
+}
+
+
+
